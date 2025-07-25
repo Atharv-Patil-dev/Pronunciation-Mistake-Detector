@@ -24,12 +24,13 @@ An Android app that detects pronunciation mistakes using speech-to-text technolo
 - Google Speech-to-Text API
 
 ## 📸 Screenshots
-<img width="401" height="841" alt="Screenshot 2025-07-25 180819" src="https://github.com/user-attachments/assets/3f6bf253-bac7-470b-a965-b811087b6103" />
-<img width="396" height="831" alt="Screenshot 2025-07-25 180801" src="https://github.com/user-attachments/assets/8d0ccd99-b541-44e8-91b8-4b6e709f32fe" />
-<img width="400" height="834" alt="Screenshot 2025-07-25 180954" src="https://github.com/user-attachments/assets/09f44900-8e8f-4192-95e7-3bb6c21329bd" />
-<img width="399" height="837" alt="Screenshot 2025-07-25 180930" src="https://github.com/user-attachments/assets/d3bc6ef6-ea4c-48ac-9844-176195c45e53" />
-<img width="404" height="835" alt="Screenshot 2025-07-25 180906" src="https://github.com/user-attachments/assets/ec2aa27b-ffdb-4bae-b9d4-55e0e2926363" />
-<img width="404" height="841" alt="Screenshot 2025-07-25 180836" src="https://github.com/user-attachments/assets/23021a01-9dea-4aef-b390-573e4b8be64d" />
+<img width="396" height="831" alt="Screenshot 2025-07-25 180801" src="https://github.com/user-attachments/assets/913e35b4-9aeb-4adb-a6eb-0116840d9f71" />
+<img width="401" height="841" alt="Screenshot 2025-07-25 180819" src="https://github.com/user-attachments/assets/c967d371-c898-4ee8-8966-a2558ddf945b" />
+<img width="404" height="841" alt="Screenshot 2025-07-25 180836" src="https://github.com/user-attachments/assets/d9d166b4-e11c-467c-b3cc-f7bbd34029b5" />
+<img width="404" height="835" alt="Screenshot 2025-07-25 180906" src="https://github.com/user-attachments/assets/5607e9a6-7edc-4ebc-954c-0a04b0dc8d95" />
+<img width="399" height="837" alt="Screenshot 2025-07-25 180930" src="https://github.com/user-attachments/assets/b4fd0c69-18fd-47db-a1c7-038b09cb0090" />
+<img width="400" height="834" alt="Screenshot 2025-07-25 180954" src="https://github.com/user-attachments/assets/74c25204-d30d-4e1c-a365-62eec9455915" />
+
 
 
 ## 👨‍💻 Author
