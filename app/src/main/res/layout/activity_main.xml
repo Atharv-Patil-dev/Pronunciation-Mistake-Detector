@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_gray"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+
+        android:background="@color/light_gray">
+
+        <TextView
+            android:id="@+id/instruction_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:fontFamily="serif"
+            android:text="Press the button and speak..."
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/result_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recognized Text"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:background="@drawable/textview_bg"
+            android:padding="12dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/corrected_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/textview_bg"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Correction:"
+            android:textColor="@color/red"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/ipa_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="IPA Pronunciation"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+            android:background="@drawable/textview_bg"
+            android:gravity="center"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/confidence_score"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confidence Score: 0%"
+            android:layout_marginTop="5dp"
+            android:textSize="16sp"
+            android:textColor="@color/blue"
+            android:padding="8dp"
+            android:gravity="center"
+            android:layout_marginBottom="12dp" />
+
+        <Spinner
+            android:id="@+id/difficulty_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="12dp"
+            android:background="@drawable/spinner_bg" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/start_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Listening"
+            android:textSize="16dp"
+            android:background="@drawable/rounded_but"
+            android:layout_marginTop="30dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/play_correct_pronunciation"
+            android:layout_width="match_parent"
+            android:textSize="16dp"
+            android:layout_height="wrap_content"
+            android:text="Hear Correct Pronunciation"
+            android:background="@drawable/rounded_but"
+            android:layout_marginTop="12dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save_progress_button"
+            android:textSize="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Progress"
+            android:background="@drawable/rounded_but"
+            android:layout_marginTop="12dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/view_history_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:text="View History"
+            android:background="@drawable/rounded_but"
+            android:layout_marginTop="12dp" />
+
+    </LinearLayout>
+</ScrollView>

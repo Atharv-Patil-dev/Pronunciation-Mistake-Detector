@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pronunciation Detector</string>
+    <string-array name="difficulty_levels">
+        <item>Beginner</item>
+        <item>Intermediate</item>
+        <item>Advanced</item>
+    </string-array>
+</resources>
